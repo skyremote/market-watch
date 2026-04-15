@@ -1,0 +1,21 @@
+# Market Watch config
+
+# Ignore diffs smaller than this (characters of changed text)
+min_change_chars: 120
+
+# SERP tracking
+serp_top_n: 10
+serp_region: "us"
+serp_language: "en"
+
+# Classification thresholds (0–1 confidence)
+min_confidence_to_report: 0.6
+
+# How many weeks of snapshots to retain (older weeks are archived by a GH Action)
+retention_weeks: 12
+
+# Commit message template
+commit_message: "watch: {{iso_week}}"
+
+# What to do when a URL 404s
+on_fetch_error: "record_and_continue"   # alternatives: abort, retry_once
