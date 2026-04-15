@@ -11,7 +11,7 @@ under [`briefs/`](./briefs/) with a "so what" for a founder.
 ## Setup
 
 1. Clone this repo.
-2. Create the routine at [cloud.ai/code/routines](https://cloud.ai/code/routines).
+2. Create the routine at [claude.ai/code/routines](https://claude.ai/code/routines).
 3. Paste [`ROUTINE.md`](./ROUTINE.md).
 4. Trigger: cron `0 6 * * 1` (Monday 06:00 UTC).
 5. Save.
